@@ -13,4 +13,6 @@ points(b, col="red", type="l")
 points(c, col="blue", type="l")
 x <- c(1, 1440, 2880)
 axis(1, at= x, label= c("Thu", "Fri" , "Sat") )
+legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), bty = "n", col=c("black","red","blue"),lty= c(1,1,1) )
+
 dev.off()
